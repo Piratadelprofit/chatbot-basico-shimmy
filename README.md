@@ -8,7 +8,7 @@ Colocar el modelo en la carpeta models
 # Situarse en la carpeta donde descomprimieron el repositorio y escribir en el cmd:
 <code>shimmy.exe serve --bind 0.0.0.0:11434</code>
 
-Logearse en Django con el endpoint [Login](http://localhost:8000/api/login/) -> Peticion POST
+Logearse en Django con el endpoint [http://localhost:8000/api/login/](http://localhost:8000/api/login/) -> Peticion POST
 Y enviar este JSON:
 ```json
 {
@@ -16,7 +16,7 @@ Y enviar este JSON:
   "password":"1234",
 }
 ```
-Luego hacer una peticion POST al endpoint [Chatbot](http://localhost:8000/api/chatbot/)
+Luego hacer una peticion POST al endpoint [http://localhost:8000/api/chatbot/](http://localhost:8000/api/chatbot/)
 
 con el siguiente JSON:
 ```json
